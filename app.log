@@ -1,0 +1,103 @@
+2021-07-26 18:35:27.791  INFO 1752 --- [main] c.i.e.IihtEstockMarketingApplication     : Starting IihtEstockMarketingApplication using Java 1.8.0_201 on Lab-637610833676544458-1 with PID 1752 (C:\Users\User\Documents\iiht-api\iiht-company-service\target\classes started by User in C:\Users\User\Documents\iiht-api\iiht-company-service)
+2021-07-26 18:35:27.975  INFO 1752 --- [main] c.i.e.IihtEstockMarketingApplication     : No active profile set, falling back to default profiles: default
+2021-07-26 18:35:33.211  INFO 1752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-07-26 18:35:33.361  INFO 1752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 1 MongoDB repository interfaces.
+2021-07-26 18:35:33.853  INFO 1752 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ba1ed0af-dcdf-3620-a9c6-5b5f948fa939
+2021-07-26 18:35:34.152  INFO 1752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-26 18:35:34.155  INFO 1752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-26 18:35:34.161  INFO 1752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-26 18:35:34.170  INFO 1752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics.export.prometheus-org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-26 18:35:34.177  INFO 1752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'prometheusConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusPropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-26 18:35:34.185  INFO 1752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'collectorRegistry' of type [io.prometheus.client.CollectorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-26 18:35:34.191  INFO 1752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-26 18:35:34.196  INFO 1752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-26 18:35:34.329  INFO 1752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'prometheusMeterRegistry' of type [io.micrometer.prometheus.PrometheusMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-26 18:35:34.341  INFO 1752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'repositoryTagsProvider' of type [org.springframework.boot.actuate.metrics.data.DefaultRepositoryTagsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-26 18:35:34.353  INFO 1752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'metricsRepositoryMethodInvocationListener' of type [org.springframework.boot.actuate.metrics.data.MetricsRepositoryMethodInvocationListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-26 18:35:34.871  INFO 1752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-07-26 18:35:34.889  INFO 1752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-26 18:35:34.890  INFO 1752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-07-26 18:35:35.292  INFO 1752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-26 18:35:35.293  INFO 1752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5762 ms
+2021-07-26 18:35:35.953  INFO 1752 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-07-26 18:35:36.121  INFO 1752 --- [cluster-ClusterId{value='60feb31fde6bd942592cfaf1', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:109}] to localhost:27017
+2021-07-26 18:35:36.123  INFO 1752 --- [cluster-ClusterId{value='60feb31fde6bd942592cfaf1', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=33191000}
+2021-07-26 18:35:36.130  INFO 1752 --- [cluster-rtt-ClusterId{value='60feb31fde6bd942592cfaf1', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:108}] to localhost:27017
+2021-07-26 18:35:36.299  WARN 1752 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-26 18:35:36.626  WARN 1752 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-26 18:35:38.147  INFO 1752 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2021-07-26 18:35:39.559  INFO 1752 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2021-07-26 18:35:39.662  WARN 1752 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-07-26 18:35:39.804  INFO 1752 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-07-26 18:35:39.861  INFO 1752 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-07-26 18:35:40.809  INFO 1752 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-07-26 18:35:40.811  INFO 1752 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-07-26 18:35:41.504  INFO 1752 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-07-26 18:35:41.505  INFO 1752 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-07-26 18:35:42.800  INFO 1752 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 18:35:42.841  INFO 1752 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-07-26 18:35:42.842  INFO 1752 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-07-26 18:35:42.842  INFO 1752 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-07-26 18:35:42.842  INFO 1752 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-07-26 18:35:42.842  INFO 1752 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-07-26 18:35:42.843  INFO 1752 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-07-26 18:35:42.844  INFO 1752 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-07-26 18:35:43.506  INFO 1752 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-07-26 18:35:43.512  INFO 1752 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-07-26 18:35:43.519  INFO 1752 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-07-26 18:35:43.535  INFO 1752 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1627304743533 with initial instances count: 2
+2021-07-26 18:35:43.537  INFO 1752 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application IIHT-COMPANY-SERVICE with eureka with status UP
+2021-07-26 18:35:43.539  INFO 1752 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1627304743539, current=UP, previous=STARTING]
+2021-07-26 18:35:43.547  INFO 1752 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_IIHT-COMPANY-SERVICE/host.docker.internal:iiht-company-service:8081: registering service...
+2021-07-26 18:35:43.614  INFO 1752 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_IIHT-COMPANY-SERVICE/host.docker.internal:iiht-company-service:8081 - registration status: 204
+2021-07-26 18:35:43.628  INFO 1752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-26 18:35:43.629  INFO 1752 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2021-07-26 18:35:43.991  INFO 1752 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-26 18:35:43.993  INFO 1752 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-26 18:35:43.998  INFO 1752 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-07-26 18:35:44.211  INFO 1752 --- [http-nio-8081-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:110}] to localhost:27017
+2021-07-26 18:35:44.285 ERROR 1752 --- [http-nio-8081-exec-1] com.iiht.estock.service.CompanyService   : Company Not Found
+2021-07-26 18:35:44.664  INFO 1752 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-07-26 18:35:44.728  INFO 1752 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-07-26 18:35:44.800  INFO 1752 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-07-26 18:35:46.111  INFO 1752 --- [main] c.i.e.IihtEstockMarketingApplication     : Started IihtEstockMarketingApplication in 19.723 seconds (JVM running for 22.265)
+2021-07-26 18:35:46.111  INFO 1752 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-07-26 18:35:46.111  INFO 1752 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-07-26 18:35:51.182  INFO 1752 --- [http-nio-8081-exec-3] com.iiht.estock.service.CompanyService   : Found Company : []
+2021-07-26 18:35:55.839  INFO 1752 --- [http-nio-8081-exec-6] com.iiht.estock.service.CompanyService   : Companies List : []
+2021-07-26 18:40:42.863  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 18:45:42.877  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 18:50:42.888  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 18:55:42.902  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 19:00:42.916  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 19:05:42.919  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 19:10:42.926  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 19:15:42.928  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 19:20:42.934  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 19:25:42.946  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 19:30:42.962  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 19:35:42.969  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 19:40:42.985  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 19:42:45.227  INFO 1752 --- [http-nio-8081-exec-10] com.iiht.estock.service.CompanyService   : Found Company : []
+2021-07-26 19:45:43.001  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 19:50:43.004  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 19:55:43.013  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 20:00:43.025  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 20:05:43.035  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 20:10:43.059  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 20:13:20.598  INFO 1752 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_IIHT-COMPANY-SERVICE/host.docker.internal:iiht-company-service:8081 - Re-registering apps/IIHT-COMPANY-SERVICE
+2021-07-26 20:13:20.608  INFO 1752 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_IIHT-COMPANY-SERVICE/host.docker.internal:iiht-company-service:8081: registering service...
+2021-07-26 20:13:20.784  INFO 1752 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_IIHT-COMPANY-SERVICE/host.docker.internal:iiht-company-service:8081 - registration status: 204
+2021-07-26 20:13:51.214  INFO 1752 --- [http-nio-8081-exec-6] com.iiht.estock.service.CompanyService   : Companies List : []
+2021-07-26 20:14:31.664  INFO 1752 --- [http-nio-8081-exec-5] com.iiht.estock.service.CompanyService   : Found Company : []
+2021-07-26 20:14:36.718 ERROR 1752 --- [http-nio-8081-exec-7] com.iiht.estock.service.CompanyService   : Company Not Found
+2021-07-26 20:15:43.072  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 20:20:34.774  INFO 1752 --- [http-nio-8081-exec-1] com.iiht.estock.service.CompanyService   : Found Company : []
+2021-07-26 20:20:43.102  INFO 1752 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-26 20:24:16.296  INFO 1752 --- [http-nio-8081-exec-9] com.iiht.estock.service.CompanyService   : Companies List : []
+2021-07-26 20:24:44.344  INFO 1752 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-07-26 20:24:44.387  INFO 1752 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-07-26 20:24:44.485  INFO 1752 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application IIHT-COMPANY-SERVICE with eureka with status DOWN
+2021-07-26 20:24:44.486  INFO 1752 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1627311284486, current=DOWN, previous=UP]
+2021-07-26 20:24:44.486  INFO 1752 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_IIHT-COMPANY-SERVICE/host.docker.internal:iiht-company-service:8081: registering service...
+2021-07-26 20:24:44.523  INFO 1752 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_IIHT-COMPANY-SERVICE/host.docker.internal:iiht-company-service:8081 - registration status: 204

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-07-26T23:00:06</date>
+  <millis>1627320606011</millis>
+  <sequence>4</sequence>
+  <logger>com.iiht.estock</logger>
+  <level>SEVERE</level>
+  <class>com.iiht.estock.IihtEstockMarketingApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe message</message>
+</record>
+<record>
+  <date>2021-07-26T23:00:06</date>
+  <millis>1627320606012</millis>
+  <sequence>5</sequence>
+  <logger>com.iiht.estock</logger>
+  <level>WARNING</level>
+  <class>com.iiht.estock.IihtEstockMarketingApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warning message</message>
+</record>
+<record>
+  <date>2021-07-26T23:00:06</date>
+  <millis>1627320606024</millis>
+  <sequence>6</sequence>
+  <logger>com.iiht.estock</logger>
+  <level>INFO</level>
+  <class>com.iiht.estock.IihtEstockMarketingApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info message</message>
+</record>
